@@ -21,6 +21,6 @@ func Hi(name string, lang string) (string, error) {
 	case "jp":
 		return fmt.Sprintf("こんにちは、%s!", name), nil
 	default:
-		return "", errors.New("unknown language")
+		return "", errors.New("Sorry,unknown language")
 	}
 }
