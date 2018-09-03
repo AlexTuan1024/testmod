@@ -2,7 +2,7 @@ package testmod
 
 import (
 	"fmt"
-	"github.com/pkg/errors"
+	"errors"
 )
 
 // Hi returns a friendly greeting
